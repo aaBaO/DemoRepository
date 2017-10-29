@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: BlurTexture
-  m_Shader: {fileID: 4800000, guid: 61696037d7bb7414fa3bef0c24c893e9, type: 3}
+  m_Name: GassionBlurTexture
+  m_Shader: {fileID: 4800000, guid: 13675530ac41d4955b57e375087775ee, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1

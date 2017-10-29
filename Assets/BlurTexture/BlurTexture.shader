@@ -1,4 +1,4 @@
-﻿Shader "ShaderPlayground/BlurTexture" {
+﻿Shader "ShaderPlayground/LinerBlur" {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}
 		_BlurRadius("Raius", Range(0, 10)) = 0
