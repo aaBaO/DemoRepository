@@ -6,4 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BlurTexture/BlurTexureDemo.unity
+    path: Assets/MainScene/MainMenu.unity
+  - enabled: 1
+    path: Assets/BlurTexture/BlurTexture.unity
+  - enabled: 1
+    path: Assets/BlurTexture/PerformanceTest/BlurTexture_PerformanceTest.unity
