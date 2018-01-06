@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour {
 	private static Dictionary<string,string> buttonToSceneDictionary = new Dictionary<string, string>(){
 		{"BlurTexture", "BlurTexture"},
 		{"BlurTexture_性能测试", "BlurTexture_PerformanceTest"},
+		{"SRenameDemo", "SRenameDemo"},
 	};
 
 	void Start () {

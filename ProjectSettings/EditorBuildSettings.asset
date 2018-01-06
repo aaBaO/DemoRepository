@@ -11,3 +11,5 @@ EditorBuildSettings:
     path: Assets/BlurTexture/BlurTexture.unity
   - enabled: 1
     path: Assets/BlurTexture/PerformanceTest/BlurTexture_PerformanceTest.unity
+  - enabled: 1
+    path: Assets/SRenameDemo/SRenameDemo.unity
