@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour {
 		{"BlurTexture", "BlurTexture"},
 		{"BlurTexture_性能测试", "BlurTexture_PerformanceTest"},
 		{"SRenameDemo", "SRenameDemo"},
+		{"iOS原生插件", "iOSNativePlugin"},
 	};
 
 	void Start () {

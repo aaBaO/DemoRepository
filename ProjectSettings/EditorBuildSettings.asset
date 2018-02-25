@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/BlurTexture/PerformanceTest/BlurTexture_PerformanceTest.unity
   - enabled: 1
     path: Assets/SRenameDemo/SRenameDemo.unity
+  - enabled: 1
+    path: Assets/iOSNativePlugin/iOSNativePlugin.unity
