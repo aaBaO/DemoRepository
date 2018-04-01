@@ -14,6 +14,7 @@ public class MainMenu : MonoBehaviour {
 		{"BlurTexture_性能测试", "BlurTexture_PerformanceTest"},
 		{"SRenameDemo", "SRenameDemo"},
 		{"iOS原生插件", "iOSNativePlugin"},
+		{"快速了解Timeline", "TimelineDemo"},
 	};
 
 	void Start () {
@@ -27,7 +28,7 @@ public class MainMenu : MonoBehaviour {
 			var copy = button;
 			buttonObj.GetComponent<Button>().onClick.AddListener( ()=> {
 				Debug.Log(string.Format("click [{0}] go to sence [{1}]", copy.Key, copy.Value));	
-				SceneManager.LoadScene(copy.Value);
+				SceneManager.LoadSceneAsync(copy.Value);
 			} ); 
 		}	
 		scrollRect.gameObject.SetActive(true);

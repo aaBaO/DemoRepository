@@ -7,11 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/MainScene/MainMenu.unity
+    guid: 499932152fa8647dfaa5cf7fc02feaad
   - enabled: 1
     path: Assets/BlurTexture/BlurTexture.unity
+    guid: 9e3844b8f25da491aa5f9c8e5e3000cb
   - enabled: 1
     path: Assets/BlurTexture/PerformanceTest/BlurTexture_PerformanceTest.unity
+    guid: a2678d2bcac384f1cbee83ded476a0a4
   - enabled: 1
     path: Assets/SRenameDemo/SRenameDemo.unity
+    guid: 77e3b27a1ecde4127add365b2179c2dc
   - enabled: 1
     path: Assets/iOSNativePlugin/iOSNativePlugin.unity
+    guid: ab4f9dd338ba043748bb8ce54c69a9e9
+  - enabled: 1
+    path: Assets/Timeline/TimelineDemo.unity
+    guid: 8224057323fe044f0aeb8750aae94e6d
