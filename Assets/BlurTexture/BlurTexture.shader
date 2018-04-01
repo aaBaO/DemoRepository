@@ -1,4 +1,6 @@
-﻿Shader "ShaderPlayground/LinerBlur" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "ShaderPlayground/LinerBlur" {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}
 		_BlurRadius("Raius", Range(0, 10)) = 0
@@ -40,7 +42,7 @@
 
 			v2f vert(appdata i) {
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, i.pos);
+				o.pos = UnityObjectToClipPos(i.pos);
 				o.uv = i.uv.xy;
 #if UNITY_UV_STARTS_AT_TOP
 				if (_GrabTexture_TexelSize.y < 0)
