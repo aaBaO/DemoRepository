@@ -9,14 +9,23 @@ public class AnimationEventReciver : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		playableDirector.Play(playableDirector.playableAsset, DirectorWrapMode.Loop);
+		if(playableDirector != null)
+			playableDirector.Play(playableDirector.playableAsset, DirectorWrapMode.Loop);
 	}
 
 	void FootR(){
-		Debug.Log("FootR");	
+		// Debug.Log("FootR");	
 	}
 
 	void FootL(){
-		Debug.Log("FootL");	
+		// Debug.Log("FootL");	
+	}
+
+	void Jump(){
+
+	}
+
+	void Land(){
+
 	}
 }

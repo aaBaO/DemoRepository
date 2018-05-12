@@ -7,3 +7,4 @@
   * iOS原生插件演示Demo
   * 快速了解Timeline
   * 快速了解Cinemachine
+  * TimelinePlayableAPI

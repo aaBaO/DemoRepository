@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour {
 		{"SRenameDemo", "SRenameDemo"},
 		{"iOS原生插件", "iOSNativePlugin"},
 		{"快速了解Timeline", "TimelineDemo"},
+		{"TimelinePlayableAPI", "TimelinePlayable"},
 		{"快速了解Cinemachine", "whatischinemachine"},
 	};
 
