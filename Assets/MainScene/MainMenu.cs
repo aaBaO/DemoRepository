@@ -17,6 +17,7 @@ public class MainMenu : MonoBehaviour {
 		{"快速了解Timeline", "TimelineDemo"},
 		{"TimelinePlayableAPI", "TimelinePlayable"},
 		{"快速了解Cinemachine", "whatischinemachine"},
+		{"NavMeshBuildingComponent", "NavMeshComponentDemo"},
 	};
 
 	void Start () {

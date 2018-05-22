@@ -17,3 +17,6 @@
     
   * TimelinePlayableAPI
     [BlogLink](https://aabao.github.io/Unity2017_TimelinePlayableAPI/)
+
+  * NavMeshBuildingComponents
+    [BlogLink](https://aabao.github.io/NavMesh_Building_Components/)
