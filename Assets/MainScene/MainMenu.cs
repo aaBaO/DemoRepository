@@ -18,6 +18,7 @@ public class MainMenu : MonoBehaviour {
 		{"TimelinePlayableAPI", "TimelinePlayable"},
 		{"快速了解Cinemachine", "whatischinemachine"},
 		{"NavMeshBuildingComponent", "NavMeshComponentDemo"},
+		{"HybridECSSample", "HybridECSSample"}
 	};
 
 	void Start () {

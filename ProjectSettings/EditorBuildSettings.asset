@@ -29,3 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NavMeshBuildComponents/NavMeshComponentDemo.unity
     guid: d507ea7d63d9c4336bcb743495ddda32
+  - enabled: 1
+    path: Assets/UnityECS/HybridECS/HybridECSSample.unity
+    guid: b34896711260c4a79958e4b387f48a88
+  m_configObjects: {}
